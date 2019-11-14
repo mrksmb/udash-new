@@ -1,0 +1,29 @@
+[0m[[0m[0mdebug[0m] [0m[0mFull compilation, no sources in previous analysis.[0m
+[0m[[0m[0mdebug[0m] [0m[0mAll sources are invalidated.[0m
+[0m[[0m[0mdebug[0m] [0m[0mRecompiling all 15 sources: invalidated sources (15) exceeded 50.0% of all sources[0m
+[0m[[0m[0minfo[0m] [0m[0mCompiling 15 Scala sources to C:\Users\marku\git\udash-generated\udash-new\shared\js\target\scala-2.12\classes ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mGetting org.scala-sbt:compiler-bridge_2.12:1.2.5:compile for Scala 2.12.10[0m
+[0m[[0m[0mdebug[0m] [0m[0mGetting org.scala-sbt:compiler-bridge_2.12:1.2.5:compile for Scala 2.12.10[0m
+[0m[[0m[0mdebug[0m] [0m[0m[zinc] Running cached compiler 66be2302 for Scala compiler version 2.12.10[0m
+[0m[[0m[0mdebug[0m] [0m[0m[zinc] The Scala compiler is invoked with:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-feature[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-deprecation[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-unchecked[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-language:implicitConversions[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-language:existentials[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-language:dynamics[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-Xfuture[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-Xfatal-warnings[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-Xlint:_,-missing-interpolator,-adapted-args[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-Ybackend-parallelism[0m
+[0m[[0m[0mdebug[0m] [0m[0m	4[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-Ycache-plugin-class-loader:last-modified[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-Ycache-macro-class-loader:last-modified[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-P:scalajs:sjsDefinedByDefault[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-Xplugin:C:\Users\marku\.ivy2\cache\org.scala-js\scalajs-compiler_2.12.10\jars\scalajs-compiler_2.12.10-0.6.29.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-bootclasspath[0m
+[0m[[0m[0mdebug[0m] [0m[0m	C:\Program Files\Java\jre1.8.0_221\lib\resources.jar;C:\Program Files\Java\jre1.8.0_221\lib\rt.jar;C:\Program Files\Java\jre1.8.0_221\lib\sunrsasign.jar;C:\Program Files\Java\jre1.8.0_221\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_221\lib\jce.jar;C:\Program Files\Java\jre1.8.0_221\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_221\lib\jfr.jar;C:\Program Files\Java\jre1.8.0_221\classes;C:\Users\marku\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.12.10.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-classpath[0m
+[0m[[0m[0mdebug[0m] [0m[0m	C:\Users\marku\git\udash-generated\udash-new\shared\js\target\scala-2.12\classes;C:\Users\marku\.ivy2\cache\org.scala-js\scalajs-library_2.12\jars\scalajs-library_2.12-0.6.29.jar;C:\Users\marku\.ivy2\cache\io.udash\udash-core_sjs0.6_2.12\jars\udash-core_sjs0.6_2.12-0.8.1.jar;C:\Users\marku\.ivy2\cache\io.udash\udash-utils_sjs0.6_2.12\jars\udash-utils_sjs0.6_2.12-0.8.1.jar;C:\Users\marku\.ivy2\cache\io.udash\udash-macros_2.12\jars\udash-macros_2.12-0.8.1.jar;C:\Users\marku\.ivy2\cache\org.scala-lang\scala-reflect\jars\scala-reflect-2.12.10.jar;C:\Users\marku\.ivy2\cache\com.avsystem.commons\commons-macros_2.12\jars\commons-macros_2.12-1.39.0.jar;C:\Users\marku\.ivy2\cache\com.avsystem.commons\commons-core_sjs0.6_2.12\jars\commons-core_sjs0.6_2.12-1.39.0.jar;C:\Users\marku\.ivy2\cache\com.avsystem.commons\commons-annotations_sjs0.6_2.12\jars\commons-annotations_sjs0.6_2.12-1.39.0.jar;C:\Users\marku\.ivy2\cache\org.scala-js\scalajs-dom_sjs0.6_2.12\jars\scalajs-dom_sjs0.6_2.12-0.9.7.jar;C:\Users\marku\.ivy2\cache\com.lihaoyi\scalatags_sjs0.6_2.12\jars\scalatags_sjs0.6_2.12-0.6.8.jar;C:\Users\marku\.ivy2\cache\com.lihaoyi\sourcecode_sjs0.6_2.12\bundles\sourcecode_sjs0.6_2.12-0.1.5.jar;C:\Users\marku\.ivy2\cache\io.udash\udash-rpc_sjs0.6_2.12\jars\udash-rpc_sjs0.6_2.12-0.8.1.jar;C:\Users\marku\.ivy2\cache\org.webjars\atmosphere-javascript\jars\atmosphere-javascript-2.3.8.jar;C:\Users\marku\.ivy2\cache\io.udash\udash-rest_sjs0.6_2.12\jars\udash-rest_sjs0.6_2.12-0.8.1.jar;C:\Users\marku\.ivy2\cache\com.softwaremill.sttp\core_sjs0.6_2.12\jars\core_sjs0.6_2.12-1.6.4.jar;C:\Users\marku\.ivy2\cache\io.udash\udash-i18n_sjs0.6_2.12\jars\udash-i18n_sjs0.6_2.12-0.8.1.jar;C:\Users\marku\.ivy2\cache\io.udash\udash-css_sjs0.6_2.12\jars\udash-css_sjs0.6_2.12-0.8.1.jar;C:\Users\marku\.ivy2\cache\com.github.japgolly.scalacss\core_sjs0.6_2.12\jars\core_sjs0.6_2.12-0.5.6.jar;C:\Users\marku\.ivy2\cache\com.github.japgolly.univeq\univeq_sjs0.6_2.12\jars\univeq_sjs0.6_2.12-1.0.6.jar;C:\Users\marku\.ivy2\cache\io.udash\udash-auth_sjs0.6_2.12\jars\udash-auth_sjs0.6_2.12-0.8.1.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mScala compilation took 18.0624793 s[0m
+[0m[[0m[0minfo[0m] [0m[0mDone compiling.[0m

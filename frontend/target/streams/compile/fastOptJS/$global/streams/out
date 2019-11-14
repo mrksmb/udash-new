@@ -1,0 +1,16 @@
+[0m[[0m[0minfo[0m] [0m[0mFast optimizing C:\Users\marku\git\udash-generated\udash-new\frontend\target\UdashStatics\WebContent\scripts\frontend.js[0m
+[0m[[0m[0mdebug[0m] [0m[0mLinker: Compute reachability: 941720 us[0m
+[0m[[0m[0mdebug[0m] [0m[0mLinker: Assemble LinkedClasses: 1339235 us[0m
+[0m[[0m[0mdebug[0m] [0m[0mBasic Linking: 2305106 us[0m
+[0m[[0m[0mdebug[0m] [0m[0mInc. optimizer: Batch mode: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mInc. optimizer: Incremental part: 563161 us[0m
+[0m[[0m[0mdebug[0m] [0m[0mInc. optimizer: Optimizing 11565 methods.[0m
+[0m[[0m[0mdebug[0m] [0m[0mInc. optimizer: Optimizer part: 4040619 us[0m
+[0m[[0m[0mdebug[0m] [0m[0mInc. optimizer: 4629428 us[0m
+[0m[[0m[0mdebug[0m] [0m[0mRefiner: Compute reachability: 235325 us[0m
+[0m[[0m[0mdebug[0m] [0m[0mRefiner: Assemble LinkedClasses: 74621 us[0m
+[0m[[0m[0mdebug[0m] [0m[0mRefiner: 311945 us[0m
+[0m[[0m[0mdebug[0m] [0m[0mEmitter: Class tree cache stats: reused: 1170 -- invalidated: 1190[0m
+[0m[[0m[0mdebug[0m] [0m[0mEmitter: Method tree cache stats: resued: 0 -- invalidated: 5222[0m
+[0m[[0m[0mdebug[0m] [0m[0mEmitter (write output): 2999704 us[0m
+[0m[[0m[0mdebug[0m] [0m[0mGlobal IR cache stats: reused: 0 -- invalidated: 162 -- trees read: 1403[0m

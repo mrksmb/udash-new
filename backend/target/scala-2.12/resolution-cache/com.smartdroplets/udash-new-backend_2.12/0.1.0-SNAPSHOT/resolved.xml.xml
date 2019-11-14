@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ivy-module version="2.0" xmlns:e="http://ant.apache.org/ivy/extra">
+	<info organisation="com.smartdroplets"
+		module="udash-new-backend_2.12"
+		revision="0.1.0-SNAPSHOT"
+		status="integration"
+		publication="20191113211417"
+	>
+		<description>
+		backend
+		</description>
+	</info>
+	<configurations>
+		<conf name="compile" visibility="public" description=""/>
+		<conf name="runtime" visibility="public" description="" extends="compile"/>
+		<conf name="test" visibility="public" description="" extends="runtime"/>
+		<conf name="provided" visibility="public" description=""/>
+		<conf name="optional" visibility="public" description=""/>
+		<conf name="compile-internal" visibility="private" description="" extends="compile,optional,provided"/>
+		<conf name="runtime-internal" visibility="private" description="" extends="runtime,optional"/>
+		<conf name="test-internal" visibility="private" description="" extends="test,optional,provided"/>
+		<conf name="plugin" visibility="private" description=""/>
+		<conf name="pom" visibility="public" description=""/>
+		<conf name="scala-tool" visibility="private" description=""/>
+	</configurations>
+	<publications>
+		<artifact name="udash-new-backend_2.12" type="pom" ext="pom" conf="pom"/>
+		<artifact name="udash-new-backend_2.12" type="jar" ext="jar" conf="compile"/>
+		<artifact name="udash-new-backend_2.12" type="src" ext="jar" conf="compile" e:classifier="sources"/>
+		<artifact name="udash-new-backend_2.12" type="doc" ext="jar" conf="compile" e:classifier="javadoc"/>
+	</publications>
+	<dependencies>
+		<dependency org="org.scala-lang" name="scala-compiler" rev="2.12.10" conf="scala-tool->default,optional(default)"/>
+		<dependency org="org.scala-lang" name="scala-library" rev="2.12.10" conf="scala-tool->default,optional(default);compile->default(compile)"/>
+		<dependency org="com.smartdroplets" name="udash-new-shared_2.12" rev="0.1.0-SNAPSHOT" conf="test->test;compile->compile"/>
+		<dependency org="io.udash" name="udash-rpc_2.12" rev="0.8.1" conf="compile->default(compile)"/>
+		<dependency org="io.udash" name="udash-rest_2.12" rev="0.8.1" conf="compile->default(compile)"/>
+		<dependency org="io.udash" name="udash-i18n_2.12" rev="0.8.1" conf="compile->default(compile)"/>
+		<dependency org="io.udash" name="udash-css_2.12" rev="0.8.1" conf="compile->default(compile)"/>
+		<dependency org="org.eclipse.jetty" name="jetty-server" rev="9.4.20.v20190813" conf="compile->default(compile)"/>
+		<dependency org="org.eclipse.jetty" name="jetty-rewrite" rev="9.4.20.v20190813" conf="compile->default(compile)"/>
+		<dependency org="org.eclipse.jetty.websocket" name="websocket-server" rev="9.4.20.v20190813" conf="compile->default(compile)"/>
+		<dependency org="org.springframework" name="spring-core" rev="4.3.25.RELEASE" conf="compile->default(compile)"/>
+		<dependency org="org.springframework" name="spring-beans" rev="4.3.25.RELEASE" conf="compile->default(compile)"/>
+		<dependency org="org.springframework" name="spring-context-support" rev="4.3.25.RELEASE" conf="compile->default(compile)"/>
+		<dependency org="com.avsystem.commons" name="commons-spring_2.12" rev="1.39.0" conf="compile->default(compile)"/>
+		<dependency org="ch.qos.logback" name="logback-classic" rev="1.2.3" conf="compile->default(compile)"/>
+	</dependencies>
+</ivy-module>
